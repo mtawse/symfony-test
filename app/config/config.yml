@@ -3,6 +3,8 @@ imports:
     - { resource: security.yml }
     - { resource: services.yml }
 
+    - { resource: @BloggerBlogBundle/Resources/config/config.yml }
+
 framework:
     #esi:             ~
     #translator:      { fallback: "%locale%" }
